@@ -1,4 +1,4 @@
-# Project Title
+# ShuffleArrayList
 
 Write the following method that shuffles an ArrayList
  public static <E> void shuffle(ArrayList<E>
