@@ -1,6 +1,10 @@
 # Project Title
 
-One Paragraph of project description goes here
+Write the following method that shuffles an ArrayList
+ public static <E> void shuffle(ArrayList<E>
+  Basically, the assignment wants me create an arraylist then create a method that shuffles
+  whatever is put into the array randomly, shuffling means putting the characters/strings whatever you want to put into
+  it into random places on the array.
 
 ## Example Output
 
@@ -13,12 +17,21 @@ This image will display as your example output. Name the image README.jpg in you
 This section should restate the assignment and explain how you analyzed the requirements in order 
 to develop a solution.
 
+"Write the following method that shuffles an ArrayList"
+
+Well basically I added the method that is provided to me on the assignment and basically just added the extra arguments
+needed in the method in order to create the shuffling of the array while I placed an object in the main that displays some characters so I can
+begin working on the method.
+
 ### Design
 
-How did you approach your program design? Did you use multiple classes to define various objects?
+I used the main and the method that was provided to me to create this program.
 
 ```
-Give examples
+public static void main(String[] args) {
+        ArrayList<Integer> shufflelist = new ArrayList<>();
+        
+        for (int i = 0; i < 10; i++) {
 ```
 
 ### Testing
@@ -41,7 +54,7 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Notes
 
-Explain any issues or testing instructions.
+No issues or notes.
 
 ## Do not change content below this line
 ## Adapted from a README Built With
