@@ -66,7 +66,7 @@ public static <E> void shuffle(ArrayList<E> sList){
             sList.set(i, tmp);
 ```
 
-Step 4: Print the list and run
+Step 4: Print the list and shuffle
 ```
  System.out.println(shufflelist);
         shuffle(shufflelist);
@@ -74,7 +74,7 @@ Step 4: Print the list and run
 ```
 
 You can get some data out of this by seeing that the shuffle method works like the photo that is shown above
-you can see that normally the numbers would be in order from 1-9, but they're shuffled up.
+you can see that normally the numbers would be in order from 1-9 as shown in the first line, but they're shuffled up in the second line.
 
 ## Notes
 
