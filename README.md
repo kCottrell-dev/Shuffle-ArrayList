@@ -3,7 +3,7 @@
 Write the following method that shuffles an ArrayList
  public static <E> void shuffle(ArrayList<E>
   Basically, the assignment wants me create an arraylist then create a method that shuffles
-  whatever is put into the array randomly, shuffling means putting the characters/strings whatever you want to put into
+  whatever is put into the array randomly, shuffling means putting the characters/strings/numbers whatever you want to put into
   it into random places on the array.
 
 ## Example Output
@@ -18,13 +18,13 @@ to develop a solution.
 "Write the following method that shuffles an ArrayList"
 
 Well basically I added the method that is provided to me on the assignment and basically just added the extra arguments
-needed in the method in order to create the shuffling of the array while I placed an object in the main that displays some characters so I can
+needed in the method in order to create the shuffling of the array while I placed an object in the main that displays some numbers so I can
 begin working on the method.
 
 ### Design
 
 I used the main and the method that was provided to me to create this program. Basically what I did was 
-create a for loop that displays a char then I print that char two times within the main and in my shuffle method
+create a for loop that displays numbers then I print that char two times within the main and in my shuffle method
 I wrote the method so that it would randomize where the numbers are placed within the print.
 
 ```
