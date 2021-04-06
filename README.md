@@ -8,8 +8,6 @@ Write the following method that shuffles an ArrayList
 
 ## Example Output
 
-This image will display as your example output. Name the image README.jpg in your project folder.
-
 ![Sample Output](README.jpg)
 
 ## Analysis Steps
@@ -25,7 +23,9 @@ begin working on the method.
 
 ### Design
 
-I used the main and the method that was provided to me to create this program.
+I used the main and the method that was provided to me to create this program. Basically what I did was 
+create a for loop that displays a char then I print that char two times within the main and in my shuffle method
+I wrote the method so that it would randomize where the numbers are placed within the print.
 
 ```
 public static void main(String[] args) {
@@ -40,17 +40,41 @@ A step by step series of examples that you developed to properly test the progra
 
 Say what the step will be
 
+Step 1: Create the Arraylist
+
 ```
-Give the example
+ ArrayList<Integer> shufflelist = new ArrayList<>();
 ```
 
 And repeat
 
+Step 2: Create for loop
+
 ```
-until finished
+for (int i = 0; i < 10; i++) {
+        shufflelist.add(i);
+```
+Step 3: Create Shuffle Method
+
+```
+public static <E> void shuffle(ArrayList<E> sList){
+
+         for (int i = 0; i < sList.size(); i++) {
+            int random = (int) (Math.random() * sList.size());
+            E tmp = sList.get(random);
+            sList.set(random, sList.get(i));
+            sList.set(i, tmp);
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Step 4: Print the list and run
+```
+ System.out.println(shufflelist);
+        shuffle(shufflelist);
+        System.out.println(shufflelist);
+```
+
+You can get some data out of this by seeing that the shuffle method works like the photo that is shown above
+you can see that normally the numbers would be in order from 1-9, but they're shuffled up.
 
 ## Notes
 
