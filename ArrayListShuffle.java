@@ -10,18 +10,18 @@ public class ArrayListShuffle {
 
   
     public static void main(String[] args) {
-        ArrayList<Integer> shufflelist = new ArrayList<>();
+        ArrayList<Integer> shufflelist = new ArrayList<>(); //Create Arraylist
         
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) { //Int For loop
         shufflelist.add(i);
     }
         System.out.println(shufflelist);
-        shuffle(shufflelist);
+        shuffle(shufflelist);                 //Print List
         System.out.println(shufflelist);
         
     }
            
-         public static <E> void shuffle(ArrayList<E> sList){
+         public static <E> void shuffle(ArrayList<E> sList){ //Shuffle Method
 
          for (int i = 0; i < sList.size(); i++) {
             int random = (int) (Math.random() * sList.size());
